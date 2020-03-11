@@ -47,6 +47,12 @@ const Contact = () => {
       
       </div>
 
+      <div className='about-site-wrapper'>
+        <h3 className='about-site'>
+          {`Designed & Built w/ React`}
+        </h3>
+      </div>
+
     </section>
   );
 }
