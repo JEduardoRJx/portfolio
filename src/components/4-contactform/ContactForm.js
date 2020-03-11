@@ -5,6 +5,7 @@ import axios from 'axios';
 
 const ContactForm = () => {
 
+  const [displayThankYou, setDisplayThankYou] = useState(false)
   const [inputs, setInputs] = useState({
     name: '',
     email: '',
