@@ -12,6 +12,24 @@ const ContactForm = () => {
     message: ''
   })
 
+  const handleSubmit = async () => {
+    try {
+      const url = 'https://formspree.io/xvorjkvy'
+      await axios.post(url, inputs)
+      setDisplayThankYou(true)
+      setTimeout(() => {
+        setDisplayThankYou(false)
+      }, 2000)
+      setInputs({
+        name: '',
+        email: '',
+        message: ''
+      })
+    } catch(err) {
+      throw new Error(err)
+    }
+  }
+
   const handleChange = e => {
     e.persist();
     setInputs(prev => ({
