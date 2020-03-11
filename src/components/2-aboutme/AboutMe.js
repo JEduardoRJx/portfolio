@@ -9,7 +9,7 @@ const AboutMe = () => {
       <Fade bottom delay={100}>
         <div className='headshot-wrapper'>
           <img className='headshot'
-            src={Me}
+            src={Headshot}
             alt='J. Eduardo headshot' />
         </div>
 
