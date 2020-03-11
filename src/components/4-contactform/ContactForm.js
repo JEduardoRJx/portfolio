@@ -49,7 +49,7 @@ const ContactForm = () => {
   return (
       <>
         {!displayThankYou && 
-          <Fade bottom delay={300}>
+          <Fade bottom delay={200}>
             <h2 className='reach-out-text'>Contact</h2>
             <form>
               <label className='form-el'>Name:</label>
