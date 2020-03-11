@@ -87,3 +87,9 @@ description-wrapper {
     }
   }
 }
+
+@media only screen and (max-width: 1250px) {
+  .wrapper-projectcard {
+    width: 100%;
+  }
+}
