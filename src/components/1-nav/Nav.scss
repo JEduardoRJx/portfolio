@@ -65,4 +65,12 @@
     z-index: 5;
   }
 
+  .nav-overlay {
+    background-color: transparent;
+    width: 50%;
+    height: 100vh;
+    z-index: 5;
+    position: fixed;
+  }
+
 }
