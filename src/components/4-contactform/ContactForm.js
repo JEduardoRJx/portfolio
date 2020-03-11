@@ -5,6 +5,12 @@ import axios from 'axios';
 
 const ContactForm = () => {
 
+  const [inputs, setInputs] = useState({
+    name: '',
+    email: '',
+    message: ''
+  })
+  
   const renderButton = () => {
     if (inputs.name
       && (inputs.email.includes('@') && inputs.email.includes('.com'))
