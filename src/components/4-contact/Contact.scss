@@ -75,3 +75,16 @@
     }
   }
 }
+
+@media only screen and (max-width: 512px) {
+
+  .contact-section .links-wrapper .link {
+    max-width: 35px;
+    max-height: 35px;
+  }
+
+  .contact-section .links-wrapper {
+    width: 75%;
+  }
+
+}
