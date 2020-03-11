@@ -1,0 +1,11 @@
+.mtnimg-section {
+  background-image: url(../../images/mountain.png);
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  pointer-events: none;
+}
