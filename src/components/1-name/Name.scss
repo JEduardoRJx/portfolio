@@ -25,3 +25,23 @@
   font-size: 2.5em;
   font-weight: 100;
 }
+
+@media only screen and (max-width: 1024px) {
+  .name {
+    margin: 0;
+  }
+
+  .name-section {
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .name-text {
+    margin-top: 10%;
+    font-size: 3em;
+  }
+  
+  .name-title {
+    font-size: 2em;
+  }
+}
