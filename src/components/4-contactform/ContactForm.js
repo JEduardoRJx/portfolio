@@ -77,7 +77,7 @@ const ContactForm = () => {
           </Fade>}
           {displayThankYou && 
             <Fade bottom>
-              <h2 className='Thankyou-msg'>Thank you!</h2>
+              <h2 className='thankyou-msg'>Thank you!</h2>
             </Fade>}
       </>
   );
