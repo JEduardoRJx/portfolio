@@ -18,4 +18,13 @@ form {
     margin-bottom: 2%;
   }
 
+  input,
+  textarea,
+  button {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+  }
+
 }
