@@ -6,5 +6,10 @@
   z-index: 2;
   flex-direction: column;
 
+  .form-links-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
 
 }
