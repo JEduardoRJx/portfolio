@@ -10,7 +10,15 @@ const Nav = () => {
 
   const [isActive, handleIsActive] = useState(false);
 
-
+  const toggleHamburgerMenuIcon = () => {
+    const icon = isActive ? Close : Menu
+    return (
+      <img className='hamburger-menu-icon' 
+        src={`${icon}`} 
+        onClick={() => handleIsActive(!isActive)}
+        alt='Menu icon' />
+    )
+  }
 
   return (
     <>
