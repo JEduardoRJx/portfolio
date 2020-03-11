@@ -6,6 +6,7 @@ import Name from '../components/1-name/Name';
 import Nav from '../components/1-nav/Nav';
 import AboutMe from '../components/2-aboutme/AboutMe';
 import Portfolio from '../components/3-portfolio/Portfolio';
+import Contact from '../components/4-contact/Contact';
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Bkgrnd section='aboutmebkgrnd-section' />
       <Portfolio />
       <Bkgrnd section='portfoliobkgrnd-section' />
+      <Contact />
       <Bkgrnd section='contactbkgrnd-section' />
     </>
   );
