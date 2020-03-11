@@ -93,3 +93,28 @@ description-wrapper {
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 550px) {
+  .article-projectcard {
+    width: 90%;
+  }
+
+  .description-wrapper {
+    width: 100%;
+    h3 {
+      font-size: 1.5em;
+    }
+    p {
+      font-size: 1em;
+    }
+    ul {
+      height: 75px;
+    }
+    .techStack {
+      font-size: .9em;
+    }
+    footer {
+      height: 35px;
+    }
+  }
+}
