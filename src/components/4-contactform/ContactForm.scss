@@ -38,4 +38,10 @@ form {
     font-size: 1.25em;
   }
 
+  textarea {
+    resize: none;
+    height: 150px;
+    padding: 10px;
+  }
+
 }
