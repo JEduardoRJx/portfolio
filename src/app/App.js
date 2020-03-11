@@ -7,6 +7,9 @@ function App() {
   return (
     <>
       <Bkgrnd section='mtnbkgrnd-section' />
+      <Bkgrnd section='aboutmebkgrnd-section' />
+      <Bkgrnd section='portfoliobkgrnd-section' />
+      <Bkgrnd section='contactbkgrnd-section' />
     </>
   );
 }
