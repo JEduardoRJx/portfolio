@@ -33,3 +33,57 @@
   object-fit: cover;
   width: 100%;
 }
+
+description-wrapper {
+  height: 550px;
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h3 {
+    width: 90%;
+    font-size: 1.75em;
+  }
+
+  p {
+    font-size: 1.25em;
+  }
+
+  .techStack {
+    font-size: 1em;
+  }
+
+  li {
+    font-size: 1.1em;
+  }
+
+  ul {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+  }
+
+  footer {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 1%;
+    justify-content: space-around;
+    img {
+      height: 100%;
+    }
+    .icon-link {
+      width: 0;
+    }
+  }
+}
