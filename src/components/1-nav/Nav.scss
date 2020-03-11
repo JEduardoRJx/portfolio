@@ -1,0 +1,10 @@
+.nav-desktop {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5em;
+  z-index: 5;
+  position: fixed;
+  mix-blend-mode: difference;
+  margin-left: 50%;
+}
