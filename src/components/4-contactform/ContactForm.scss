@@ -44,4 +44,16 @@ form {
     padding: 10px;
   }
 
+  button {
+    width: 100px;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    &:hover {
+      background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+  }
 }
