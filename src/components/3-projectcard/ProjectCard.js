@@ -20,7 +20,7 @@ const ProjectCard = ({project}) => {
               alt='Harry Potter and the sorting game' />
             <div className='description-wrapper'>
                 <h3 className='title-project'>{project.title}</h3>
-                <p>Game to match witches and wizards to their respective Hogwarts house.</p>
+                  <p>{project.desc}</p>
                 <ul>
                   {renderTechStack()}
                 </ul>
