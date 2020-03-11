@@ -15,6 +15,8 @@ const Contact = () => {
             <ContactForm />
         </div>
 
+        </div>
+
     </section>
   );
 }
