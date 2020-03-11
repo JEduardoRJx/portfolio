@@ -49,4 +49,20 @@
   -webkit-tap-highlight-color: transparent;
   }
 
+  .nav-mobile {
+    align-items: center;
+    background-color: white;
+    box-shadow: -10px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5em;
+    height: 100vh;
+    justify-content: center;
+    margin-left: 50%;
+    opacity: 0.9;
+    position: fixed;
+    width: 50%;
+    z-index: 5;
+  }
+
 }
