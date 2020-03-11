@@ -73,4 +73,16 @@
     position: fixed;
   }
 
+  .nav-mobile-link {
+    margin: 10% 0;
+  }
+
+  .active {
+    visibility: visible;
+  }
+
+  .unactive {
+    visibility: hidden;
+  }
+
 }
