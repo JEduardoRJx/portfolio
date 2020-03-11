@@ -35,4 +35,18 @@
     display: none;
   }
 
+  .hamburger-menu-icon {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 6;
+    position: fixed;
+    margin-left: auto;
+    mix-blend-mode: difference;
+    max-height: 50px;
+    margin-left: 83%;
+    margin-top: 3%;
+    cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  }
+
 }
