@@ -15,7 +15,7 @@ const ProjectCard = ({project}) => {
       <div className='wrapper-projectcard' key={project.id}>
         <Fade bottom>
           <article className='article-projectcard'>
-          <img className='img-projectcard' 
+            <img className='img-projectcard'
               src={project.img}
               alt='Harry Potter and the sorting game' />
             <div className='description-wrapper'>
