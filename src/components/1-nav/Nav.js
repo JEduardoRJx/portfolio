@@ -90,6 +90,8 @@ const Nav = () => {
           </Link>
         </nav>
       </Fade>
+      {toggleHamburgerMenuIcon()}
+      {isActive && toggleHamburgerMenu()}
     </>
   );
 }
