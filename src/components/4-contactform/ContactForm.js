@@ -3,7 +3,15 @@ import './ContactForm.scss';
 import Fade from 'react-reveal/Fade';
 import axios from 'axios';
 
-onst ContactForm = () => {
+const ContactForm = () => {
+
+  const renderButton = () => {
+    if (inputs.name
+      && (inputs.email.includes('@') && inputs.email.includes('.com'))
+      && inputs.message) {
+        return (<button type='button' onClick={() => handleSubmit()}>Send</button>)
+    }
+  }
 
   return (
       <>
