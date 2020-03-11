@@ -12,7 +12,7 @@ export const Projects = [
     id: 2,
     title: 'Movie Tracker',
     img: require('../../images/movie_tracker.png'),
-    desc: 'Movie Tracker is a web application that allows users to view the latest Holywood movies via the The Movie DB API',
+    desc: 'Allows users to view the latest Holywood movie info. via the The Movie DB API',
     repo: 'https://tinyurl.com/movie-tracker-repo',
     deploy: 'https://tinyurl.com/movie-tracker',
     techStack: ['React', 'JavaScript', 'Redux', 'InVision Studio', 'Movies DB API', 'Router', 'Jest & Enzyme']
@@ -30,7 +30,7 @@ export const Projects = [
     id: 4,
     title: 'Check Yo\' Self',
     img: require('../../images/checkyoself.png'),
-    desc: 'A simple Checklist app for desktop and mobile. Created with semantic HTML, organized CSS, and DRY JavaScript.',
+    desc: 'A simple Checklist app for desktop and mobile.',
     repo: 'https://tinyurl.com/checkyo-self-repo',
     deploy: 'https://tinyurl.com/checkyo-self',
     techStack: ['Vanilla JavaScript', 'HMTL', 'CSS', 'Local Storage']
