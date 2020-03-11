@@ -9,12 +9,10 @@ import Resume from '../../images/resume.png'
 const Contact = () => {
   return (
     <section className='contact-section'>
-      
       <div className='form-links-wrapper'>
         <div className='contactform-wrapper'>
             <ContactForm />
         </div>
-
         <div className='links-wrapper'>
           <Fade bottom delay={200}>
            <a href="https://www.linkedin.com/in/jeduardorjx/"
@@ -44,7 +42,6 @@ const Contact = () => {
             </a>
           </Fade>
         </div>
-      
       </div>
 
       <div className='about-site-wrapper'>
@@ -52,7 +49,6 @@ const Contact = () => {
           {`Designed & Built w/ React`}
         </h3>
       </div>
-
     </section>
   );
 }
