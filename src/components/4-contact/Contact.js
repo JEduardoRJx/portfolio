@@ -15,7 +15,11 @@ const Contact = () => {
             <ContactForm />
         </div>
 
+        <div className='links-wrapper'>
+
         </div>
+      
+      </div>
 
     </section>
   );
