@@ -45,3 +45,14 @@
     font-size: 2em;
   }
 }
+
+@media only screen and (max-width: 512px) {
+  .name-text {
+    margin-top: 20%;
+    font-size: 2em;
+  }
+  
+  .name-title {
+    font-size: 1.5em;
+  }
+}
