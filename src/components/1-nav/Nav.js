@@ -8,6 +8,10 @@ import Close from '../../images/close.svg';
 
 const Nav = () => {
 
+  const [isActive, handleIsActive] = useState(false);
+
+
+
   return (
     <>
       <Fade top cascade delay={500}>
