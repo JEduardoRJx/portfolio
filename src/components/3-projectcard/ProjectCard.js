@@ -11,6 +11,12 @@ const ProjectCard = ({project}) => {
   return (
       <div className='wrapper-projectcard' key={project.id}>
         
+        <Fade bottom>
+          <article className='article-projectcard'>
+            
+          </article>
+        </Fade>
+
       </div>
   );
 }
