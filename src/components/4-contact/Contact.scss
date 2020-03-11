@@ -49,5 +49,29 @@
     font-weight: 600;
     margin-bottom: 1%;
   }
+}
 
+@media only screen and (max-width: 1024px) {
+
+  .form-links-wrapper {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    .contactform-wrapper {
+      height: 65%;
+      width: 100%;
+    }
+
+    .links-wrapper {
+      height: 15%;
+      width: 50%;
+      justify-content: space-around;
+      align-items: center;
+      .link {
+        margin: 0;
+        max-width: 50px;
+        max-height: 50px;
+      }
+    }
+  }
 }
