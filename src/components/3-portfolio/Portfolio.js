@@ -5,11 +5,14 @@ import { Projects } from './Projects';
 
 const Portfolio = () => {
 
-
+  const renderProjects = () => {
+    return Projects.map(project =>
+    <ProjectCard project={project} key={project.id}/>)
+  }
 
   return (
     <section className='portfolio-section'>
-
+      {renderProjects()}
     </section>
   );
 }
