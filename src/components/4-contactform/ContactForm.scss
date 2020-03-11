@@ -62,3 +62,25 @@ form {
   font-size: 2.5em;
   color: white;
 }
+
+@media only screen and (max-width: 512px) {
+  form {
+    width: 90%;
+    height: 90%;
+
+    input,
+    textarea,
+    button {
+      font-size: 1em;
+    }
+
+    label,
+    button {
+      font-size: 1.25em;
+    }
+
+    input {
+      font-size: 1em;
+    }
+  }
+}
