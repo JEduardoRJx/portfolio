@@ -21,3 +21,10 @@
   margin-top: 2%;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) {
+  .nav-desktop {
+    width: 75%;
+    margin-left: 25%;
+  }
+}
