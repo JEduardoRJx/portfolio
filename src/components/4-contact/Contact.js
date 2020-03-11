@@ -15,7 +15,7 @@ const Contact = () => {
         </div>
         <div className='links-wrapper'>
           <Fade bottom delay={200}>
-           <a href="https://www.linkedin.com/in/jeduardorjx/"
+           <a href="https://drive.google.com/file/d/1dXuj1_RNK30twraKemJucA_EiTiNgr5A/view?usp=sharing"
               className='link'
               target="_blank"
               rel="noopener noreferrer">
