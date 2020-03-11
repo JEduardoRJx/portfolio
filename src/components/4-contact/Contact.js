@@ -10,6 +10,10 @@ const Contact = () => {
   return (
     <section className='contact-section'>
       
+      <div className='form-links-wrapper'>
+        <div className='contactform-wrapper'>
+            <ContactForm />
+        </div>
 
     </section>
   );
