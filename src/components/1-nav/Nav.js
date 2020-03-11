@@ -5,7 +5,6 @@ import Fade from 'react-reveal/Fade';
 import Menu from '../../images/menu.svg';
 import Close from '../../images/close.svg';
 
-
 const Nav = () => {
 
   const [isActive, handleIsActive] = useState(false);
@@ -27,32 +26,32 @@ const Nav = () => {
         <Fade right cascade delay={100}>
           <nav className={`nav-mobile ${active}`}
             onClick={() => handleIsActive(!isActive)}>
-                <Link activeClass='active'
-                  className={`${active} nav-mobile-link`}
-                  to='aboutmebkgrnd-section'
-                  onClick={() => handleIsActive(!isActive)}
-                  smooth={true}
-                  duration={500}>
-                    About Me
-                </Link>
+              <Link activeClass='active'
+                className={`${active} nav-mobile-link`}
+                to='aboutmebkgrnd-section'
+                onClick={() => handleIsActive(!isActive)}
+                smooth={true}
+                duration={500}>
+                  About Me
+              </Link>
 
-                <Link activeClass='active'
-                  className={`${active} nav-mobile-link`}
-                  to='portfoliobkgrnd-section'
-                  smooth={true}
-                  onClick={() => handleIsActive(!isActive)}
-                  duration={500}>
-                    Portfolio
-                </Link>
+              <Link activeClass='active'
+                className={`${active} nav-mobile-link`}
+                to='portfoliobkgrnd-section'
+                smooth={true}
+                onClick={() => handleIsActive(!isActive)}
+                duration={500}>
+                  Portfolio
+              </Link>
 
-                <Link activeClass='active'
-                  className={`${active} nav-mobile-link`}
-                  to='contactbkgrnd-section'
-                  onClick={() => handleIsActive(!isActive)}
-                  smooth={true}
-                  duration={500}>
-                    Contact
-                </Link>
+              <Link activeClass='active'
+                className={`${active} nav-mobile-link`}
+                to='contactbkgrnd-section'
+                onClick={() => handleIsActive(!isActive)}
+                smooth={true}
+                duration={500}>
+                  Contact
+              </Link>
           </nav>
         </Fade>
         <div className='nav-overlay'
