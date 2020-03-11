@@ -8,13 +8,7 @@ import AboutMe from '../components/2-aboutme/AboutMe';
 import Portfolio from '../components/3-portfolio/Portfolio';
 import Contact from '../components/4-contact/Contact';
 
-
-
-
-
-
-
-function App() {
+const App = () => {
   return (
     <>
       <Nav />
