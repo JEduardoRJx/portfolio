@@ -6,11 +6,13 @@ import Fade from 'react-reveal/Fade';
 
 const ProjectCard = ({project}) => {
 
-
+  const renderTechStack = () => {
+    return project.techStack.map(tech =>
+      <p className='techStack' key={tech + '1'}>{tech}</p> )
+  }
 
   return (
       <div className='wrapper-projectcard' key={project.id}>
-        
         <Fade bottom>
           <article className='article-projectcard'>
           <img className='img-projectcard' 
@@ -20,7 +22,7 @@ const ProjectCard = ({project}) => {
                 <h3 className='title-project'>{project.title}</h3>
                 <p>Game to match witches and wizards to their respective Hogwarts house.</p>
                 <ul>
-
+                  {renderTechStack()}
                 </ul>
               <footer className='footer-projectcard'>
                 <a
@@ -45,7 +47,6 @@ const ProjectCard = ({project}) => {
             </div>
           </article>
         </Fade>
-
       </div>
   );
 }
