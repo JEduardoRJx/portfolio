@@ -20,6 +20,47 @@ const Nav = () => {
     )
   }
 
+  const toggleHamburgerMenu = () => {
+    const active = isActive ? 'active' :'unactive'
+    return (
+      <>
+        <Fade right cascade delay={100}>
+          <nav className={`nav-mobile ${active}`}
+            onClick={() => handleIsActive(!isActive)}>
+                <Link activeClass='active'
+                  className={`${active} nav-mobile-link`}
+                  to='aboutmebkgrnd-section'
+                  onClick={() => handleIsActive(!isActive)}
+                  smooth={true}
+                  duration={500}>
+                    About Me
+                </Link>
+
+                <Link activeClass='active'
+                  className={`${active} nav-mobile-link`}
+                  to='portfoliobkgrnd-section'
+                  smooth={true}
+                  onClick={() => handleIsActive(!isActive)}
+                  duration={500}>
+                    Portfolio
+                </Link>
+
+                <Link activeClass='active'
+                  className={`${active} nav-mobile-link`}
+                  to='contactbkgrnd-section'
+                  onClick={() => handleIsActive(!isActive)}
+                  smooth={true}
+                  duration={500}>
+                    Contact
+                </Link>
+          </nav>
+        </Fade>
+        <div className='nav-overlay'
+          onClick={() => handleIsActive(!isActive)}></div>
+      </>
+    )
+  }
+
   return (
     <>
       <Fade top cascade delay={500}>
