@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.scss';
+import Bkgrnd from '../components/bkgrnd/Bkgrnd';
+
 
 function App() {
   return (
     <>
-    hello
+      <Bkgrnd section='mtnbkgrnd-section' />
     </>
   );
 }
