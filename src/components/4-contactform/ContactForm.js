@@ -11,6 +11,14 @@ const ContactForm = () => {
     email: '',
     message: ''
   })
+
+  const handleChange = e => {
+    e.persist();
+    setInputs(prev => ({
+      ...prev,
+      [e.target.name]: e.target.value
+    }))
+  }
   
   const renderButton = () => {
     if (inputs.name
