@@ -16,7 +16,33 @@ const Contact = () => {
         </div>
 
         <div className='links-wrapper'>
+          <Fade bottom delay={200}>
+           <a href="https://www.linkedin.com/in/jeduardorjx/"
+              className='link'
+              target="_blank"
+              rel="noopener noreferrer">
+                <img className='icon icon-margin'
+                  src={Resume}
+                  alt='linkedin icon' />
+            </a>
 
+            <a href="https://github.com/JEduardoRJx"
+              className='link'
+              target="_blank" 
+              rel="noopener noreferrer">
+                  <img className='icon'
+                    src={Github}
+                    alt='github icon' />
+            </a>
+            <a href="https://www.linkedin.com/in/jeduardorjx/"
+              className='link'
+              target="_blank"
+              rel="noopener noreferrer">
+                <img className='icon icon-margin'
+                  src={Linkedin}
+                  alt='linkedin icon' />
+            </a>
+          </Fade>
         </div>
       
       </div>
